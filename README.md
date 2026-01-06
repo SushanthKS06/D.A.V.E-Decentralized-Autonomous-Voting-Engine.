@@ -143,31 +143,7 @@ The deployer has no special powers after deployment. They cannot:
 2. Call `isVotingActive()` to check if voting is still open
 3. After the deadline, call `getWinner()` to see the winner
 
-## Interview Talking Points
 
-When discussing this project in an interview, you can highlight:
-
-### Design Decisions
-
-1. **Why `mapping` for voters instead of array?**
-   - O(1) lookup vs O(n) search
-   - Prevents double voting efficiently
-   - More gas efficient
-
-2. **Why custom errors instead of require strings?**
-   - Gas savings (~200-500 gas per error)
-   - Better developer experience with structured errors
-   - More readable in debugging tools
-
-3. **Why `block.timestamp` for deadline?**
-   - Simple and readable
-   - Accurate enough for voting periods
-   - Known limitation: miners can manipulate by ~15 seconds (acceptable trade-off)
-
-4. **Why no upgradeability?**
-   - Adds complexity and trust assumptions
-   - For voting, immutability is a feature, not a bug
-   - Users can verify the code won't change
 
 ### Security Measures
 
