@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-    console.log("🗳️  VoteLedger Deployment Script");
+    console.log("  VoteLedger Deployment Script");
     console.log("================================\n");
 
     const [deployer] = await hre.ethers.getSigners();
@@ -33,7 +33,7 @@ async function main() {
 
     const contractAddress = await voting.getAddress();
 
-    console.log("✅ Contract deployed successfully!");
+    console.log(" Contract deployed successfully!");
     console.log("================================\n");
     console.log("Contract Address:", contractAddress);
 
@@ -53,7 +53,7 @@ async function main() {
     }
 
     console.log("\n================================");
-    console.log("📋 Next Steps:");
+    console.log(" Next Steps:");
     console.log("================================\n");
 
     console.log("1. Save this contract address:", contractAddress);
@@ -78,7 +78,7 @@ async function main() {
 main()
     .then(() => process.exit(0))
     .catch((error) => {
-        console.error("\n❌ Deployment failed!");
+        console.error("\n Deployment failed!");
         console.error(error);
         process.exit(1);
     });
