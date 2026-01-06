@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-    console.log("  VoteLedger Deployment Script");
+    console.log("VoteLedger Deployment Script");
     console.log("================================\n");
 
     const [deployer] = await hre.ethers.getSigners();
@@ -11,9 +11,9 @@ async function main() {
     console.log("Account balance:", hre.ethers.formatEther(balance), "ETH\n");
 
     const candidates = [
-        "Alice Johnson",
-        "Bob Smith",
-        "Charlie Brown"
+         "Sushanth",
+        "Thalapathy Vetri Kondan",
+        "JD"
     ];
 
     const votingDurationSeconds = 86400;
