@@ -1,4 +1,4 @@
-# VoteLedger 🗳️
+# VoteLedger 
 
 A beginner-friendly, secure, and transparent blockchain voting system built with Solidity and Ethereum.
 
@@ -11,7 +11,7 @@ VoteLedger is a smart contract-based voting system that demonstrates fundamental
 - **Trustlessness**: No central authority controls the election
 - **Security**: Built-in protections against common attack vectors
 
-> ⚠️ **Important**: This is NOT an anonymous voting system. All votes are publicly visible on the blockchain. This is intentional for learning purposes and suitable for scenarios like DAO governance or public polls.
+>  **Important**: This is NOT an anonymous voting system. All votes are publicly visible on the blockchain. This is intentional for learning purposes and suitable for scenarios like DAO governance or public polls.
 
 ## Quick Start
 
@@ -194,22 +194,11 @@ When discussing this project in an interview, you can highlight:
 
 ## Future Improvements
 
-If you wanted to extend this project, consider:
-
 1. **Commit-Reveal Scheme**: Hide votes until the deadline for privacy
 2. **Delegation**: Allow users to delegate their votes
 3. **Weighted Voting**: Integrate with ERC-20 tokens
 4. **Post-Quantum Signatures**: For long-term security
 5. **Off-Chain Voting**: Use EIP-712 signatures for gasless voting
 
-## License
 
-MIT License - feel free to use this code for learning, portfolios, or production.
 
-## Contributing
-
-This is a learning project. Feel free to fork and experiment!
-
----
-
-Built with ❤️ for the Ethereum community
