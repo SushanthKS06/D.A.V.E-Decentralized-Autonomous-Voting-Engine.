@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+artifacts/
+cache/
+coverage/
+typechain/
+typechain-types/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage.json
+*.lcov
+
+# Hardhat
+deployments/localhost/
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test outputs
+test-results/
