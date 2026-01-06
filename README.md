@@ -11,7 +11,6 @@ VoteLedger is a smart contract-based voting system that demonstrates fundamental
 - **Trustlessness**: No central authority controls the election
 - **Security**: Built-in protections against common attack vectors
 
->  **Important**: This is NOT an anonymous voting system. All votes are publicly visible on the blockchain. This is intentional for learning purposes and suitable for scenarios like DAO governance or public polls.
 
 ## Quick Start
 
